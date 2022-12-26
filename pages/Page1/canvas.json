@@ -1,0 +1,233 @@
+{
+  "unpublishedPage": {
+    "name": "Page1",
+    "slug": "page1",
+    "layouts": [
+      {
+        "viewMode": false,
+        "dsl": {
+          "widgetName": "MainContainer",
+          "backgroundColor": "none",
+          "rightColumn": 4896,
+          "snapColumns": 64,
+          "detachFromLayout": true,
+          "widgetId": "0",
+          "topRow": 0,
+          "bottomRow": 460,
+          "containerStyle": "none",
+          "snapRows": 125,
+          "parentRowSpace": 1,
+          "type": "CANVAS_WIDGET",
+          "canExtend": true,
+          "version": 71,
+          "minHeight": 1292,
+          "dynamicTriggerPathList": [],
+          "parentColumnSpace": 1,
+          "dynamicBindingPathList": [],
+          "leftColumn": 0,
+          "children": [
+            {
+              "boxShadow": "none",
+              "widgetName": "ButtonGroup1",
+              "isCanvas": false,
+              "displayName": "Button Group",
+              "iconSVG": "/static/media/icon.d6773218cfb61dcfa5f460d43371e30d.svg",
+              "searchTags": [
+                "click",
+                "submit"
+              ],
+              "topRow": 10,
+              "bottomRow": 14,
+              "parentRowSpace": 10,
+              "groupButtons": {
+                "groupButton1": {
+                  "label": "Favorite",
+                  "iconName": "heart",
+                  "id": "groupButton1",
+                  "widgetId": "",
+                  "buttonType": "SIMPLE",
+                  "placement": "CENTER",
+                  "isVisible": true,
+                  "isDisabled": false,
+                  "index": 0,
+                  "menuItems": {},
+                  "buttonColor": "{{appsmith.theme.colors.primaryColor}}"
+                },
+                "groupButton2": {
+                  "label": "Add",
+                  "iconName": "add",
+                  "id": "groupButton2",
+                  "buttonType": "SIMPLE",
+                  "placement": "CENTER",
+                  "widgetId": "",
+                  "isVisible": true,
+                  "isDisabled": false,
+                  "index": 1,
+                  "menuItems": {},
+                  "buttonColor": "{{appsmith.theme.colors.primaryColor}}"
+                },
+                "groupButton3": {
+                  "label": "More",
+                  "iconName": "more",
+                  "id": "groupButton3",
+                  "buttonType": "MENU",
+                  "placement": "CENTER",
+                  "widgetId": "",
+                  "isVisible": true,
+                  "isDisabled": false,
+                  "index": 2,
+                  "menuItems": {
+                    "menuItem1": {
+                      "label": "First Option",
+                      "backgroundColor": "#FFFFFF",
+                      "id": "menuItem1",
+                      "widgetId": "",
+                      "onClick": "",
+                      "isVisible": true,
+                      "isDisabled": false,
+                      "index": 0
+                    },
+                    "menuItem2": {
+                      "label": "Second Option",
+                      "backgroundColor": "#FFFFFF",
+                      "id": "menuItem2",
+                      "widgetId": "",
+                      "onClick": "",
+                      "isVisible": true,
+                      "isDisabled": false,
+                      "index": 1
+                    },
+                    "menuItem3": {
+                      "label": "Delete",
+                      "iconName": "trash",
+                      "iconColor": "#FFFFFF",
+                      "iconAlign": "right",
+                      "textColor": "#FFFFFF",
+                      "backgroundColor": "#DD4B34",
+                      "id": "menuItem3",
+                      "widgetId": "",
+                      "onClick": "",
+                      "isVisible": true,
+                      "isDisabled": false,
+                      "index": 2
+                    }
+                  },
+                  "buttonColor": "{{appsmith.theme.colors.primaryColor}}"
+                }
+              },
+              "type": "BUTTON_GROUP_WIDGET",
+              "hideCard": false,
+              "animateLoading": true,
+              "parentColumnSpace": 6.84375,
+              "leftColumn": 7,
+              "dynamicBindingPathList": [
+                {
+                  "key": "borderRadius"
+                },
+                {
+                  "key": "groupButtons.groupButton1.buttonColor"
+                },
+                {
+                  "key": "groupButtons.groupButton2.buttonColor"
+                },
+                {
+                  "key": "groupButtons.groupButton3.buttonColor"
+                }
+              ],
+              "key": "hkm0jcqfbt",
+              "orientation": "horizontal",
+              "isDeprecated": false,
+              "rightColumn": 55,
+              "widgetId": "wjxyhd5su9",
+              "isVisible": true,
+              "version": 1,
+              "parentId": "0",
+              "renderMode": "CANVAS",
+              "isLoading": false,
+              "childStylesheet": {
+                "button": {
+                  "buttonColor": "{{appsmith.theme.colors.primaryColor}}"
+                }
+              },
+              "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+              "buttonVariant": "PRIMARY"
+            },
+            {
+              "widgetName": "CheckboxGroup1",
+              "displayName": "Checkbox Group",
+              "iconSVG": "/static/media/icon.ecb3847950c4515966ef642a32758afb.svg",
+              "labelText": "Label",
+              "topRow": 20,
+              "bottomRow": 33,
+              "parentRowSpace": 10,
+              "labelWidth": 5,
+              "type": "CHECKBOX_GROUP_WIDGET",
+              "hideCard": false,
+              "animateLoading": true,
+              "parentColumnSpace": 6.84375,
+              "leftColumn": 16,
+              "dynamicBindingPathList": [
+                {
+                  "key": "accentColor"
+                },
+                {
+                  "key": "borderRadius"
+                }
+              ],
+              "labelPosition": "Top",
+              "options": [
+                {
+                  "label": "Blue",
+                  "value": "BLUE"
+                },
+                {
+                  "label": "Green",
+                  "value": "GREEN"
+                },
+                {
+                  "label": "Red",
+                  "value": "RED"
+                }
+              ],
+              "isDisabled": false,
+              "key": "t8k9r9dwco",
+              "labelTextSize": "0.875rem",
+              "isRequired": false,
+              "isDeprecated": false,
+              "rightColumn": 39,
+              "defaultSelectedValues": [
+                "BLUE"
+              ],
+              "dynamicHeight": "AUTO_HEIGHT",
+              "widgetId": "0jt7uwdrf6",
+              "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+              "isVisible": true,
+              "version": 2,
+              "parentId": "0",
+              "labelAlignment": "left",
+              "renderMode": "CANVAS",
+              "isLoading": false,
+              "originalTopRow": 20,
+              "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+              "maxDynamicHeight": 9000,
+              "originalBottomRow": 26,
+              "isInline": true,
+              "minDynamicHeight": 4
+            }
+          ]
+        },
+        "layoutOnLoadActions": [],
+        "layoutOnLoadActionErrors": [],
+        "validOnPageLoadActions": true,
+        "id": "Page1",
+        "deleted": false,
+        "policies": [],
+        "userPermissions": []
+      }
+    ],
+    "userPermissions": [],
+    "policies": []
+  },
+  "deleted": false,
+  "gitSyncId": "63a996a3647efb486b77081b_63a996a3647efb486b77081d"
+}
